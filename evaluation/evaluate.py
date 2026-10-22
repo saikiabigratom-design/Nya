@@ -71,7 +71,7 @@ def compute_ndcg(retrieved_urls: List[str], expected_urls: List[str], k: int = 1
 async def run_evaluation():
     """Runs end-to-end evaluation benchmark over the indexed documents."""
     print("=" * 70)
-    print("ঞ (Nya) — The Search Engine: Multilingual Benchmark Evaluation")
+    print("ঞ (Nya) — Vocal for Local: Multilingual Benchmark Evaluation")
     print("=" * 70)
 
     await init_db()

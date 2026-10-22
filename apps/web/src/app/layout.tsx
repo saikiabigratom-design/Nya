@@ -3,10 +3,10 @@ import "./globals.css";
 import { ThemeProvider } from "../components/ThemeProvider";
 
 export const metadata: Metadata = {
-  title: "Nya — The Search Engine",
+  title: "Nya — Vocal for Local",
   description: "Search beyond language. Explore web results and source-grounded AI answers, starting with Assamese.",
   openGraph: {
-    title: "Nya — The Search Engine",
+    title: "Nya — Vocal for Local",
     description: "Find useful information in your language. Discover the sources behind the answer.",
     siteName: "Nya Search",
   },

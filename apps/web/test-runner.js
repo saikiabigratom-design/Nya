@@ -1,5 +1,5 @@
 /**
- * Frontend Component and Integration Test Suite for ঞ (Nya) — The Search Engine.
+ * Frontend Component and Integration Test Suite for ঞ (Nya) — Vocal for Local.
  * Tests components, contracts, accessibility, and bundle integrity.
  */
 
@@ -29,7 +29,7 @@ function test(name, fn) {
 test('BrandMark has accessible name and ঞ glyph', () => {
   const content = fs.readFileSync(path.join(__dirname, 'src/components/BrandMark.tsx'), 'utf-8');
   assert(content.includes('ঞ'), 'Should contain Assamese brand character ঞ');
-  assert(content.includes('aria-label="Nya — The Search Engine brand mark"'), 'Should have accessible ARIA label');
+  assert(content.includes('aria-label="Nya — Vocal for Local brand mark"'), 'Should have accessible ARIA label');
   assert(content.includes('bg-nya-indigo'), 'Should use Midnight Indigo background');
   assert(content.includes('text-nya-teal'), 'Should use Signal Teal text');
 });

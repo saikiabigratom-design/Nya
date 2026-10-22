@@ -24,7 +24,7 @@ export const BrandMark: React.FC<BrandMarkProps> = ({
     <div className={`flex items-center gap-3 ${className}`}>
       <div
         role="img"
-        aria-label="Nya — The Search Engine brand mark"
+        aria-label="Nya — Vocal for Local brand mark"
         className={`inline-flex items-center justify-center rounded-2xl bg-slate-900 dark:bg-nya-indigo border border-teal-500/40 dark:border-nya-teal/30 shadow-lg select-none transition-transform hover:scale-105 ${sizeClasses[size]}`}
         style={{
           boxShadow: "0 0 20px rgba(92, 225, 208, 0.2)",
@@ -42,7 +42,7 @@ export const BrandMark: React.FC<BrandMarkProps> = ({
           <span className="font-bold tracking-tight text-slate-900 dark:text-nya-white text-xl sm:text-2xl leading-tight">
             Nya <span className="text-teal-600 dark:text-nya-teal font-normal text-sm sm:text-base opacity-90">(ঞ)</span>
           </span>
-          <span className="text-xs text-slate-500 dark:text-nya-slate font-medium">The Search Engine</span>
+          <span className="text-xs text-slate-500 dark:text-nya-slate font-medium">Vocal for Local</span>
         </div>
       )}
     </div>

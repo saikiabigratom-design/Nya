@@ -8,7 +8,7 @@
 
 ## 1. Executive Summary
 
-This comprehensive audit report documents the root-cause analysis, architecture, engineering implementation, and rigorous verification for **Latest Search Results and Newest-First Ranking** in **ঞ (Nya) — The Search Engine**.
+This comprehensive audit report documents the root-cause analysis, architecture, engineering implementation, and rigorous verification for **Latest Search Results and Newest-First Ranking** in **ঞ (Nya) — Vocal for Local**.
 
 ### Core Achievements
 1. **Newest-First Default Ordering:** The search engine now defaults to ordering search results by verified publication timestamp in descending order (`sort='newest'`), while maintaining a selectable `Relevance` sort option in API contracts and UI.

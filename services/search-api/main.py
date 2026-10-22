@@ -1,5 +1,5 @@
 """
-Main FastAPI Application Entrypoint for ঞ (Nya) — The Search Engine.
+Main FastAPI Application Entrypoint for ঞ (Nya) — Vocal for Local.
 """
 
 import sys
@@ -28,7 +28,7 @@ async def lifespan(app: FastAPI):
 
 
 app = FastAPI(
-    title="ঞ (Nya) — The Search Engine API",
+    title="ঞ (Nya) — Vocal for Local API",
     description="Assamese-first, multilingual web search with source-grounded AI answers.",
     version="0.1.0-beta",
     lifespan=lifespan,
@@ -60,7 +60,7 @@ app.include_router(router)
 @app.get("/")
 async def root():
     return {
-        "name": "ঞ (Nya) — The Search Engine API",
+        "name": "ঞ (Nya) — Vocal for Local API",
         "tagline": "Search beyond language.",
         "status": "online",
         "docs_url": "/docs",

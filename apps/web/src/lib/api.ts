@@ -1,5 +1,5 @@
 /**
- * Search API Client for ঞ (Nya) — The Search Engine.
+ * Search API Client for ঞ (Nya) — Vocal for Local.
  */
 
 import {

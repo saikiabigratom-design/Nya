@@ -1,4 +1,4 @@
-# ঞ (Nya) — The Search Engine
+# ঞ (Nya) — Vocal for Local
 
 *Search beyond language.*
 

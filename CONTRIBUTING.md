@@ -1,4 +1,4 @@
-# Contributing to ঞ (Nya) — The Search Engine
+# Contributing to ঞ (Nya) — Vocal for Local
 
 Thank you for your interest in contributing to **ঞ (Nya)**! Our mission is to make useful online information easily discoverable in Assamese and other regional languages, with grounded AI answers and strict privacy defaults.
 

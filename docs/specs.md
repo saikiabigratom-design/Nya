@@ -1,4 +1,4 @@
-# ঞ  — The Search Engine
+# ঞ  — Vocal for Local
 
 **Tagline:** Search beyond language.
 
@@ -13,14 +13,14 @@
 ## 1. Official Brand Identity
 
 - **Brand name:** ঞ
-- **Official product title:** ঞ — The Search Engine
+- **Official product title:** ঞ — Vocal for Local
 - **Pronunciation:** Nya, as defined by the brand
 - **Primary tagline:** Search beyond language.
 - **Secondary tagline:** Find useful information. See the sources.
 - **Regional launch message:** Built for Assamese. Designed for a multilingual India.
 - **Product category:** Regional-language-first web search engine with source-grounded AI answers.
 - **Repository name:** `nya-search`
-- **Suggested web title:** Nya — The Search Engine
+- **Suggested web title:** Nya — Vocal for Local
 - **Short brand reference:** Nya
 
 The character ঞ is a central visual identity element. The Latin spelling “Nya” makes the brand easier to pronounce, type, discover, and reference in technical environments.
@@ -250,7 +250,7 @@ An Assamese-first, multilingual search engine combining language-aware web retri
 
 **README opening:**
 
-# ঞ (Nya) — The Search Engine
+# ঞ (Nya) — Vocal for Local
 
 *Search beyond language.*
 
@@ -299,12 +299,12 @@ Use the visible Assamese-script character for the brand and an ASCII-compatible 
 Suggested HTML metadata:
 
 ```html
-<title>Nya — The Search Engine</title>
+<title>Nya — Vocal for Local</title>
 <meta
   name="description"
   content="Search beyond language. Explore web results and source-grounded AI answers, starting with Assamese."
 />
-<meta property="og:title" content="Nya — The Search Engine" />
+<meta property="og:title" content="Nya — Vocal for Local" />
 <meta
   property="og:description"
   content="Find useful information in your language. Discover the sources behind the answer."
@@ -337,5 +337,5 @@ Nya is building a regional-language-first search engine that makes discovering r
 - [ ] Verify privacy, content-removal, security, and accessibility requirements.
 - [ ] Review all branding and capability claims before the public beta.
 
-**Final public-facing name:** ঞ (Nya) — The Search Engine  
+**Final public-facing name:** ঞ (Nya) — Vocal for Local  
 **Final primary tagline:** Search beyond language.

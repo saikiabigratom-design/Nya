@@ -1,4 +1,4 @@
--- Schema definition for ঞ (Nya) — The Search Engine
+-- Schema definition for ঞ (Nya) — Vocal for Local
 -- PostgreSQL 16 with pgvector and Full-Text Search (tsvector)
 
 CREATE EXTENSION IF NOT EXISTS "uuid-ossp";

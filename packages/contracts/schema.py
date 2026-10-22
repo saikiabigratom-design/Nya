@@ -1,5 +1,5 @@
 """
-Shared Data Contracts for ঞ (Nya) — The Search Engine.
+Shared Data Contracts for ঞ (Nya) — Vocal for Local.
 Defines Pydantic v2 data models for API requests, search results, AI citations,
 source registry, and evaluation metrics.
 """

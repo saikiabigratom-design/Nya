@@ -2,7 +2,7 @@
 
 ## Reporting a Vulnerability
 
-Security and user privacy are foundational pillars of **ঞ (Nya) — The Search Engine**. If you discover a security vulnerability or privacy leak, please disclose it responsibly.
+Security and user privacy are foundational pillars of **ঞ (Nya) — Vocal for Local**. If you discover a security vulnerability or privacy leak, please disclose it responsibly.
 
 Please email security reports to `security@nya-search.org` or open a confidential security advisory. We acknowledge receipt within 48 hours and provide a remediation timeline.
 

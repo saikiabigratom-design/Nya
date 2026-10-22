@@ -1,5 +1,5 @@
 /**
- * Shared TypeScript Contracts for ঞ (Nya) — The Search Engine
+ * Shared TypeScript Contracts for ঞ (Nya) — Vocal for Local
  */
 
 export type LanguageType = 'all' | 'as_native' | 'as_romanized' | 'en' | 'mixed';

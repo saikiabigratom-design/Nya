@@ -81,7 +81,7 @@ async def test_missing_credentials_returns_configuration_error():
     gateway = AIGateway()
     test_docs = [{"id": "1", "title": "Test", "url": "https://test.com", "snippet": "Test snippet"}]
 
-    with patch.object(settings, "AI_API_KEY", None):
+    with patch.object(settings, "AI_PROVIDER", "gemini"), patch.object(settings, "AI_API_KEY", None):
         async for session in get_db_session():
             answer = await gateway.generate_grounded_answer(
                 query="Test",
@@ -103,7 +103,7 @@ async def test_quota_exceeded_handled_gracefully():
     async def mock_call_gemini(*args, **kwargs):
         raise QuotaExceededException("Quota exceeded", retry_after_seconds=3600)
 
-    with patch.object(gateway, "_call_gemini_with_fallback", mock_call_gemini):
+    with patch.object(settings, "AI_PROVIDER", "gemini"), patch.object(settings, "AI_API_KEY", "test-key"), patch.object(gateway, "_call_gemini_with_fallback", mock_call_gemini):
         async for session in get_db_session():
             answer = await gateway.generate_grounded_answer(
                 query="Test",
@@ -126,7 +126,7 @@ async def test_invalid_credentials_returns_authentication_failed():
     async def mock_call_gemini(*args, **kwargs):
         raise AuthenticationException("API key rejected (401)")
 
-    with patch.object(gateway, "_call_gemini_with_fallback", mock_call_gemini):
+    with patch.object(settings, "AI_PROVIDER", "gemini"), patch.object(settings, "AI_API_KEY", "test-key"), patch.object(gateway, "_call_gemini_with_fallback", mock_call_gemini):
         async for session in get_db_session():
             answer = await gateway.generate_grounded_answer(
                 query="Test",
@@ -148,7 +148,7 @@ async def test_provider_timeout_returns_timeout_status():
     async def mock_call_gemini(*args, **kwargs):
         raise httpx.ReadTimeout("Read timed out")
 
-    with patch.object(gateway, "_call_gemini_with_fallback", mock_call_gemini):
+    with patch.object(settings, "AI_PROVIDER", "gemini"), patch.object(settings, "AI_API_KEY", "test-key"), patch.object(gateway, "_call_gemini_with_fallback", mock_call_gemini):
         async for session in get_db_session():
             answer = await gateway.generate_grounded_answer(
                 query="Test",
